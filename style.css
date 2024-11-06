@@ -50,49 +50,195 @@ header nav ul a:hover{
     height: 100dvh;
 }
 #inicio{
-    background-color: #cdcdcd;
+    background: linear-gradient(#e4e4e4, #cdcdcd, #2c2c2c);
 }
 #inicio img{
     position: absolute;
-    top: 20vw;
+    top: 18vw;
     right: 35vw;
-    width: 37vw;
+    width: 35vw;
     z-index: 0;
 }
 .titulo{
     position: absolute;
-    top: -12vw;
+    top: -13vw;
     right: -1vw;
 }
 
 
 #fred{
-    background-color: #bde7fe;
+    background: linear-gradient(#bde7fe, #3183b1);
     padding-left: 10vw;
-}
+}   
 .textofred{
     width: 40vw;
     height: 60vw;
-    background-color: brown;
 }
 #fred h1{
     font-size: 10vw;
     font-family: "Aclonica", sans-serif;
+    position: absolute;
+    top: 70vw;
 }
 #fred h2{
     font-size: 10vw;
     font-family: "Cookie", cursive;
     color: white;
+    position: absolute;
+    top: 70vw;
+    right: 68vw;
 }
+#fred .listafred{
+    padding-top: 70%;
+    font-size: 36px;
+}
+#fred img{
+    position: absolute;
+    top: 60vw;
+    right: 10vw;
+    width: 25vw;
+}
+
+
 #daphne{
     background-color: #decaff;
 }
+#daphne h1{
+    font-size: 10vw;
+    font-family: "Aclonica", sans-serif;
+    position: absolute;
+    top: 120vw;
+    right: 4vw;
+}
+#daphne h2{
+    font-size: 10vw;
+    font-family: "Cookie", cursive;
+    color: white;
+    position: absolute;
+    top: 120vw;
+    right: 10vw;
+}
+#daphne .listadaph{
+    position: absolute;
+    top: 135vw;
+    right: 20vw;
+    font-size: 36px;
+}
+#daphne .circulos img{
+    position: absolute;
+    top: 140vw;
+    width: 30vw;
+    height: 30vw;
+}
+#daphne .imgprincipal img{
+    position: absolute;
+    top: 120vw;
+    padding-left: 10vw;
+    width: 30vw;
+}
+
+
 #velma{
     background-color: #fed0a6;
+    padding-left: 10vw;
+    background-image: url(./img/velma1.png), url(./img/velma2.png), url(./img/velma3.png);
+    background-size: 490px 320px, 374px 376px, 260px 322px;
+    background-position-x: 70vw, 65vw, 85vw ;
+    background-position-y: 12vw, 30vw, 31vw ;
+    background-repeat: no-repeat;
 }
+#velma h1{
+    font-size: 10vw;
+    font-family: "Aclonica", sans-serif;
+    position: absolute;
+    top: 180vw;
+}
+#velma h2{
+    font-size: 10vw;
+    font-family: "Cookie", cursive;
+    color: white;
+    position: absolute;
+    top: 180vw;
+    right: 59vw;
+}
+#velma .listavelma{
+    position: absolute;
+    top: 195vw;
+    font-size: 36px;
+}
+
+
 #salsicha{
     background-color: #e2ea90;
+    padding-left: 10vw;
+    background-image: url(./img/scooby_salsicha.gif), url(./img/salsicha.png);
+    background-size: 325px 498px, 487px 900px;
+    background-position-x: 5vw, 70vw;
+    background-position-y: 28vw, 5vw;
+    background-repeat: no-repeat;
 }
+#salsicha h1{
+    font-size: 10vw;
+    font-family: "Aclonica", sans-serif;
+    position: absolute;
+    top: 235vw;
+}
+#salsicha h2{
+    font-size: 10vw;
+    font-family: "Cookie", cursive;
+    color: white;
+    position: absolute;
+    top: 235vw;
+    right: 45vw;
+}
+#salsicha .lista1{
+    position: absolute;
+    top: 250vw;
+    right: 55vw;
+    font-size: 36px;
+}
+#salsicha .lista2{
+    position: absolute;
+    top: 265vw;
+    right: 30vw;
+    font-size: 36px;
+}
+
+
 #scooby{
-    background-color: #ebd3d4;
+    background: linear-gradient(#ebd3b4, #5d3908);
+    padding-left: 10vw;
+}
+#scooby h1{
+    font-size: 10vw;
+    font-family: "Aclonica", sans-serif;
+    position: absolute;
+    top: 290vw;
+    right: 27vw;
+}
+#scooby h2{
+    font-size: 10vw;
+    font-family: "Cookie", cursive;
+    color: white;
+    position: absolute;
+    top: 290vw;
+    right: 35vw;
+}
+#scooby .lista1{
+    position: absolute;
+    top: 305vw;
+    right: 60vw;
+    font-size: 36px;
+}
+#scooby .lista2{
+    position: absolute;
+    top: 305vw;
+    right: 15vw;
+    font-size: 36px;
+}
+#scooby img{
+    position: absolute;
+    top: 315vw;
+    right: 35vw;
+    width: 40vw;
 }
